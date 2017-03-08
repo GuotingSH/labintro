@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img, object {max-width: 100%;}  
 
 div.upheader{
@@ -38,6 +39,55 @@ div.bossintro{
 	background-color: #d4d4d4
 }
 
+=======
+body{
+	font-family: "Microsoft Yahei" ! important
+}
+
+img, object {max-width: 100%;}  
+
+nav{
+	background-color: #CDC9A5;
+}
+
+ul.menus{
+	width: 64rem;
+	height: 2.875rem;
+	float: left;
+}
+
+li.menu{
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+
+.menu a{
+	text-decoration: none;
+	display: block;
+	height: 2.875rem;
+	width: 15rem;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 2rem;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.menu a:hover, .menu a:active{
+	background-color: #cc0000;
+}
+
+div.blank{
+	height: 0.5rem;
+}
+
+div.bossintro{
+	background-color: #d4d4d4
+}
+
+>>>>>>> gh-pages
 div.boss{
 	text-align: center;
 	float: left;
@@ -45,7 +95,12 @@ div.boss{
 }
 
 p.name, p.email{
+<<<<<<< HEAD
 	font-family: Arial;
+=======
+	color: grey;
+	font-weight: bold;
+>>>>>>> gh-pages
 }
 
 .clear{
