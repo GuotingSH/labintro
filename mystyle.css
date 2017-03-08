@@ -1,45 +1,3 @@
-<<<<<<< HEAD
-img, object {max-width: 100%;}  
-
-div.upheader{
-	height: 10rem;
-	background-color: #06317d;
-}
-
-nav{
-	background-color: #bebebe;
-}
-
-li.menu{
-	display: inline-block;
-	width: 23%;
-	text-align: center;
-	background-color: #bebebe;
-}
-
-.menu a{
-	color: white;
-	font-family: Arial;
-	font-size: 200%;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
-}
-
-.menus li:hover, .menus li:active{
-	background-color: #cc0000;
-}
-
-ul.menus{
-	text-align: center;
-}
-
-div.bossintro{
-	background-color: #d4d4d4
-}
-
-=======
 body{
 	font-family: "Microsoft Yahei" ! important
 }
@@ -87,7 +45,6 @@ div.bossintro{
 	background-color: #d4d4d4
 }
 
->>>>>>> gh-pages
 div.boss{
 	text-align: center;
 	float: left;
@@ -95,12 +52,8 @@ div.boss{
 }
 
 p.name, p.email{
-<<<<<<< HEAD
-	font-family: Arial;
-=======
 	color: grey;
 	font-weight: bold;
->>>>>>> gh-pages
 }
 
 .clear{
