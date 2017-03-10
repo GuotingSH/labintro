@@ -4,6 +4,10 @@ body{
 
 img, object {max-width: 100%;}  
 
+.clear{
+	clear: both;
+}
+/* 导航栏定义 */
 nav{
 	background-color: #CDC9A5;
 }
@@ -37,18 +41,21 @@ li.menu{
 	background-color: #cc0000;
 }
 
-div.blank{
-	height: 0.5rem;
-}
-
+/* 导师介绍 */
 div.bossintro{
-	background-color: #d4d4d4
+	background-color: #d4d4d4;
+	position: absolute;
+	top: 12rem;
+	width: 64rem;
 }
 
 div.boss{
 	text-align: center;
-	float: left;
-	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	z-index: 10;
 }
 
 p.name, p.email{
@@ -56,6 +63,44 @@ p.name, p.email{
 	font-weight: bold;
 }
 
-.clear{
-	clear: both;
+/* 照片展示 */
+.photoflow{
+	width: 1500px;
+	height: 150px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 9;
+	animation: myfirst 6s infinite;
+	-webkit-animation: myfirst 6s infinite;
+	-0-animation: myfirst 6s infinite;
+	-moz-animation: myfirst 6s infinite;
+	font-size: 0px;
+}
+
+.photoflow img{
+	width: 320px;
+}
+
+div.photo{
+	display: inline-block;
+}
+
+div.window{
+	width: 320px;
+	height: 240px;
+	overflow: hidden;
+	position: relative;
+	left: 0px;
+}
+
+@keyframes myfirst
+{
+	0% {left: 0px;}
+	26.6% {left: 0px;}
+	36.6% {left: -320px;}
+	63.2% {left: -320px;}
+	73.2% {left: -640px;}
+	99.7% {left: -640px;}
+	100% {left: -0px}
 }
