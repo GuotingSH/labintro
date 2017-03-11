@@ -1,5 +1,6 @@
 body{
-	font-family: "Microsoft Yahei" ! important
+	font-family: "Microsoft Yahei" ! important;
+	background-color: #f9f9f9;
 }
 
 img, object {max-width: 100%;}  
@@ -7,79 +8,71 @@ img, object {max-width: 100%;}
 .clear{
 	clear: both;
 }
+
+div.frame{
+	width: 64rem;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0.5rem 0.5rem 0.3rem #888888;
+}
+
+img.logo{
+	margin: 1rem;
+}
+
 /* ..........导航栏定义.......... */
 nav{
 	background-color: #CDC9A5;
 }
 
 ul.menus{
-	width: 64rem;
-	height: 2.875rem;
 	float: left;
+	width: 64rem;
+	height: 3rem;
 }
 
 li.menu{
-	float: left;
 	position: relative;
+	float: left;
 	list-style-type: none;
 }
 
 .menu a{
-	text-decoration: none;
 	display: block;
-	height: 2.875rem;
-	width: 15rem;
+	height: 3rem;
+	width: 11.5rem;
 	color: #FFF;
 	font-weight: bold;
 	font-size: 2rem;
 	text-align: center;
-	margin: 0;
-	padding: 0;
+	text-decoration: none;
 }
 
 .menu a:hover, .menu a:active{
 	background-color: #cc0000;
 }
 
-/* ..........导师介绍.......... */
-div.bossintro{
-	background-color: #d4d4d4;
-	position: absolute;
-	top: 12rem;
-	width: 64rem;
-}
-
-div.boss{
-	text-align: center;
-	margin-right: 5%;
-	position: absolute;
+/* ..........欢迎访问.......... */
+div.welcome{
+	position: relative;
 	top: 0.5rem;
-	right: 0.5rem;
-	z-index: 10;
-}
-
-p.name, p.email{
-	color: grey;
-	font-weight: bold;
+	width: 64rem;
 }
 
 /* ..........照片展示.......... */
 .photoflow{
-	width: 1500px;
-	height: 150px;
 	position: relative;
-	left: 0px;
-	top: 0px;
 	z-index: 9;
+	width: 100rem;
 	animation: myfirst 6s infinite;
 	-webkit-animation: myfirst 6s infinite;
-	-0-animation: myfirst 6s infinite;
+	-o-animation: myfirst 6s infinite;
 	-moz-animation: myfirst 6s infinite;
-	font-size: 0px;
+	font-size: 0rem;
 }
 
 .photoflow img{
-	width: 320px;
+	width: 30rem;
 }
 
 div.photo{
@@ -87,20 +80,61 @@ div.photo{
 }
 
 div.window{
-	width: 320px;
-	height: 240px;
-	overflow: hidden;
 	position: relative;
-	left: 0px;
+	left: 0rem;
+	width: 30rem;
+	height: 22.5rem;
+	overflow: hidden;
 }
 
 @keyframes myfirst
 {
-	0% {left: 0px;}
-	26.6% {left: 0px;}
-	36.6% {left: -320px;}
-	63.2% {left: -320px;}
-	73.2% {left: -640px;}
-	99.7% {left: -640px;}
-	100% {left: -0px}
+	0% {left: 0rem;}
+	26.6% {left: 0rem;}
+	36.6% {left: -30rem;}
+	63.2% {left: -30rem;}
+	73.2% {left: -60rem;}
+	99.7% {left: -60rem;}
+	100% {left: -0rem}
+}
+
+/* ..........研究方向.......... */
+div.major{
+	position: absolute;
+	top: 0rem;
+	right: 1rem;
+	z-index: 10;
+	width: 30rem;
+	height: 22.5rem;
+	box-shadow: 0.5rem 0.5rem 0.3rem #888888;
+}
+
+div.wel{
+	padding: 0.5rem;
+	background-color: #fafeff;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+div.field{
+	font-size: 1.5rem;
+	margin-left: 0.5rem;
+}
+
+p.fieldtitle{
+	font-weight: bold;
+}
+
+/* ..........常用链接.......... */
+div.links{
+	width: 15rem;
+	display: inline-block;
+	background-color: #efefef;
+}
+.links a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 0.75rem;
 }
