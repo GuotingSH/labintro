@@ -1,6 +1,7 @@
 body{
 	font-family: "Microsoft Yahei" ! important;
-	background-color: #f9f9f9;
+	background-image: url(images/bgimage.jpg);
+	background-repeat: repeat;
 }
 
 img, object {max-width: 100%;}  
@@ -9,11 +10,26 @@ img, object {max-width: 100%;}
 	clear: both;
 }
 
-div.frame{
-	width: 64rem;
+div.blank{
+	height: 0.5rem;
+}
+
+div.headtop{
+	width: 100%;
+	height: 2rem;
+	background-color: #0E419C;
+}
+/* ..........宽度限定.......... */
+div.framebig{
+	width: 66rem;
 	margin: auto;
 	background-color: white;
 	box-shadow: 0.5rem 0.5rem 0.3rem #888888;
+}
+
+div.framesmall{
+	width: 64rem;
+	margin: auto;
 }
 
 img.logo{
@@ -55,7 +71,7 @@ li.menu{
 /* ..........欢迎访问.......... */
 div.welcome{
 	position: relative;
-	top: 0.5rem;
+	top: 0rem;
 	width: 64rem;
 }
 
@@ -81,7 +97,6 @@ div.photo{
 
 div.window{
 	position: relative;
-	left: 0rem;
 	width: 30rem;
 	height: 22.5rem;
 	overflow: hidden;
@@ -102,11 +117,10 @@ div.window{
 div.major{
 	position: absolute;
 	top: 0rem;
-	right: 1rem;
+	right: 0rem;
 	z-index: 10;
 	width: 30rem;
 	height: 22.5rem;
-	box-shadow: 0.5rem 0.5rem 0.3rem #888888;
 }
 
 div.wel{
@@ -133,8 +147,18 @@ div.links{
 	display: inline-block;
 	background-color: #efefef;
 }
+
+.links ul{
+	list-style-type: none;
+}
+
 .links a{
 	text-decoration: none;
 	font-weight: bolder;
 	font-size: 0.75rem;
+	color: #aaaaaa;
+}
+
+.links a:hover, .links a:active{
+	background-color: #cc0000;
 }
