@@ -21,12 +21,13 @@ div.headtop{
 	height: 2rem;
 	background-color: #0E419C;
 }
+
 /* ..........宽度限定.......... */
 div.framebig{
 	width: 66rem;
 	margin: auto;
 	background-color: white;
-	box-shadow: 0.5rem 0.5rem 0.3rem #888888;
+	box-shadow: 0.5rem 0rem 0.3rem #888888;
 }
 
 div.framesmall{
@@ -143,24 +144,60 @@ p.fieldtitle{
 	font-weight: bold;
 }
 
-/* ..........常用链接.......... */
+/* ..........友情链接.......... */
 div.links{
-	width: 15rem;
+	width: 100%;
+	background-color: #0E419C;
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+div.linkin{
 	display: inline-block;
-	background-color: #efefef;
 }
 
-.links ul{
+.links img{
+	width: 1rem;
+}
+
+.linkin ul{
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
-.links a{
+li.link{
+	display: inline-block;
+	text-align: center;
+	padding: 0.3rem;
+}
+
+.link a{
 	text-decoration: none;
-	font-weight: bolder;
 	font-size: 0.75rem;
-	color: #aaaaaa;
+	color: #FFF;
 }
 
-.links a:hover, .links a:active{
-	background-color: #cc0000;
+/* ..........footer.......... */
+footer{
+	position: relative;
+	width: 100%;
+	background-color: #343434;
+	padding: 1rem;
+	text-align: center;
 }
+
+p.footerinfo{
+	position: absolute;
+	bottom: 1rem;
+	color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+
+footer img{
+	width: 4rem;
+	float: right;
+}
+
