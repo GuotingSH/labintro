@@ -18,6 +18,7 @@ div.blank{
 
 div.headtop{
 	width: 100%;
+	min-width: 66rem;
 	height: 2rem;
 	background-color: #0E419C;
 }
@@ -147,9 +148,10 @@ p.fieldtitle{
 /* ..........友情链接.......... */
 div.links{
 	width: 100%;
+	min-width: 66rem;
 	background-color: #0E419C;
 	color: white;
-	padding: 0.5rem;
+	padding: 0.5rem 0rem 0.5rem 0rem;
 	text-align: center;
 }
 
@@ -183,8 +185,9 @@ li.link{
 footer{
 	position: relative;
 	width: 100%;
+	min-width: 66rem;
 	background-color: #343434;
-	padding: 1rem;
+	padding: 1rem 0rem 1rem 0rem;
 	text-align: center;
 }
 
