@@ -1,0 +1,51 @@
+div.bluebox{
+	position: relative;
+	background-color: #16459f;
+}
+
+div.blueone{
+	height: 11.5rem;
+}
+
+div.bossimg{
+	position: absolute;
+	left: 3.5rem;
+	top: 5rem;
+	z-index: 9;
+	padding: .3rem;
+	margin: .3rem;
+	background-color: white;
+}
+
+div.bossname{
+	position: absolute;
+	left: 12.5rem;
+	top: 5.2rem;
+	color: white;
+}
+
+div.greybox{
+	position: relative;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+div.tablediv{
+	display: inline-block;
+	margin-top: 2rem;
+}
+
+.infotable td{
+	line-height: 2rem;
+	font-size: 0.8rem;
+	border-bottom: .1rem solid #efefef;
+}
+
+td.tabkeys{
+	width: 7rem;
+}
+
+td.tabvalues{
+	text-align: left;
+	width: 12rem;
+}

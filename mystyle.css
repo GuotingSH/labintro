@@ -159,8 +159,9 @@ div.linkin{
 	display: inline-block;
 }
 
-.links img{
-	width: 1rem;
+.link img{
+	width: 1.1rem;
+	vertical-align: middle;
 }
 
 .linkin ul{
@@ -171,6 +172,7 @@ div.linkin{
 
 li.link{
 	display: inline-block;
+	vertical-align: middle;
 	text-align: center;
 	padding: 0.3rem;
 }
@@ -204,3 +206,13 @@ footer img{
 	float: right;
 }
 
+#bluebox div{
+	position: relative;
+	background-color: #16459f;
+}
+
+#bossimg div{
+	padding: 3rem;
+	margin: 3rem;
+	background-color: white;
+}
