@@ -17,7 +17,8 @@ div.articlelist{
 	color: #333;
 }
 
-.articlelist a:hover, .articlelist a:active{
+.articlelist li:hover, .articlelist li:active{
 	font-weight: bold;
+	background-color: #f5f5f5;
 }
 
