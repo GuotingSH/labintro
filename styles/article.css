@@ -1,0 +1,23 @@
+div.articlebox{
+	text-align: center;
+}
+
+div.articlelist{
+	display: inline-block;
+	width: 80%;
+}
+
+.articlelist li{
+	text-align: justify;
+	margin: .5rem;
+}
+
+.articlelist a{
+	text-decoration: none;
+	color: #333;
+}
+
+.articlelist a:hover, .articlelist a:active{
+	font-weight: bold;
+}
+
