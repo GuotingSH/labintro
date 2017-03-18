@@ -6,8 +6,6 @@ body{
 	background-repeat: repeat;
 }
 
-img, object {max-width: 100%;}  
-
 .clear{
 	clear: both;
 }
@@ -21,6 +19,15 @@ div.headtop{
 	min-width: 66rem;
 	height: 2rem;
 	background-color: #0E419C;
+	vertical-align: middle;
+}
+
+.headtop p{
+	float: right;
+	margin: .5rem;
+	color: white;
+	font-size: .7rem;
+	font-weight: lighter;
 }
 
 /* ..........宽度限定.......... */
@@ -104,6 +111,7 @@ div.window{
 	width: 30rem;
 	height: 22.5rem;
 	overflow: hidden;
+	box-shadow: 0 .1rem .5rem black;
 }
 
 @keyframes myfirst
@@ -125,6 +133,7 @@ div.major{
 	z-index: 10;
 	width: 30rem;
 	height: 22.5rem;
+	box-shadow: 0 .1rem .5rem black;
 }
 
 div.wel{
@@ -182,7 +191,18 @@ li.link{
 	font-size: 0.75rem;
 	color: #FFF;
 }
+/* ..........学科介绍.......... */
+div.pharmanal{
+	text-align: center;
+}
 
+div.paintro{
+	display: inline-block;
+	width: 80%;
+	margin-top: 1rem;
+	text-align: justify;
+	line-height: 200%;
+}
 /* ..........footer.......... */
 footer{
 	position: relative;

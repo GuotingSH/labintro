@@ -1,21 +1,22 @@
-div.masterlist{
+div.personlist{
 	text-align: center;
 }
 
-div.mastertitle{
+div.titlebox{
 	border-bottom: .2rem solid black;
 }
 
-.mastertitle p{
+.titlebox p{
 	font-weight: bold;
-	margin: .8rem;
+	margin: .5rem .8rem;
 	font-size: 1.5rem;
 	color: #003300;
+	text-align: left;
 }
 
 div.person {
 	display: inline-block;
-	width: 18rem;
+	width: 15rem;
 	margin: 1rem;
 	padding: 1.5rem .5rem;
 	background-color: #efefef;

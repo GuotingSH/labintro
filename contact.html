@@ -3,11 +3,12 @@
 <head>
 <meta charset="utf-8"> 
 <link rel="stylesheet" type="text/css" href="styles/basic.css">
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <title>郁韵秋实验室</title>
 </head>
 
 <body>
-<div class="headtop"></div>
+<div class="headtop"><p>jiangguoting@outlook.com</p></div>
 <div class="blank"></div>
 <div class="framebig">
 <div class="framesmall">
@@ -27,7 +28,27 @@
 	<div class="clear"></div>
 </nav>
 <div class="blank"></div>
-<!--..........欢迎访问..........-->
+<!--..........联系方式..........-->
+<div class="conboxbig">
+<div class="conboxsmall">
+	<div class="titlebox"><p>联系方式</p></div>
+	<div class="contactinfo">
+		<ul>
+			<li><b>欢迎与我们取得联系</b></li>
+			<li>电子邮箱: yqyu@shmu.edu.cn</li>
+			<li>固定电话: 021-51980055</li>
+			<li>联系地址: 上海市浦东新区张衡路826号</li>
+			<li>邮政编码: 201203</li>
+		</ul>
+	</div>
+<!--..........地图..........-->
+	<div class="titlebox"><p>校园地图</p></div>
+	<div class="mapbox">
+		<!--百度地图容器-->
+    	<div id="dituContent"></div>
+	</div>	
+</div>
+</div>
 
 </div>
 </div>
@@ -60,5 +81,5 @@
 	</div>
 </footer>
 </body>
-
+<script type="text/javascript" src="scripts/bmap.js"></script>
 </html>

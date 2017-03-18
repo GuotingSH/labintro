@@ -1,0 +1,33 @@
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+
+div.conboxbig{
+	text-align: center;
+}
+
+div.conboxsmall{
+	display: inline-block;
+	width: 80%;
+}
+
+div.mapbox{
+	text-align: center;
+	margin-top: 2rem;
+}
+
+#dituContent{
+	display: inline-block;
+	width: 45rem;
+	height: 35rem;
+	border: #ccc solid .1rem;
+}
+
+.contactinfo li{
+	margin: .3rem;
+	text-align: left;
+}
+
+.contactinfo b{
+	font-size: 1.2rem;
+}
