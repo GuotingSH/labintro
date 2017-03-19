@@ -1,0 +1,1 @@
+(function(){window.BMAP_PROTOCOL = "https"; window.BMap_loadScriptTime = (new Date).getTime(); document.write('<script type="text/javascript" src="scripts/bservice.js"></script>');document.write('<link rel="stylesheet" type="text/css" href="styles/bmap.css"/>');})();
