@@ -18,7 +18,5 @@ div.articlelist{
 }
 
 .articlelist li:hover, .articlelist li:active{
-	font-weight: bold;
 	background-color: #f5f5f5;
 }
-
