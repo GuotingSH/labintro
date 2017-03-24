@@ -60,11 +60,12 @@ function showAbstract(whichArticle) {
           var lists = xmlDoc.getElementsByTagName("article");
           var article = lists[lists.length - whichId];
           var abstract = article.getElementsByTagName("abstract");
-          var txt = "Abstract: " + abstract[0].firstChild.nodeValue;
-          var txtbox = document.createTextNode(txt);
-          var abstractDiv = document.createElement("div");
-          abstractDiv.className = "abstractDiv";
-          abstractDiv.appendChild(txtbox);
+          var txt = "<b>Abstract:</b> " + abstract[0].firstChild.nodeValue;
+          var abstractDiv = document.createElement("div"); //创建abstract大框，包括照片和描述
+          var txtBox = document.createElement("p"); //创建abstract文本部分
+          txtBox.className = "abstractDiv";
+          txtBox.innerHTML = txt;
+          abstractDiv.appendChild(txtBox);
           insertAfter(abstractDiv, whichArticle.parentNode);
         }
       }

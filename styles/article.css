@@ -21,7 +21,7 @@ div.articlelist{
 	background-color: #f5f5f5;
 }
 
-div.abstractDiv{
+p.abstractDiv{
 	text-align: justify;
 	font-size: .8rem;
 }
