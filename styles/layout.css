@@ -55,19 +55,24 @@ nav{
 ul.menus{
 	float: left;
 	width: 64rem;
-	height: 3rem;
+	margin: 0;
+	padding: 0;
 }
 
 li.menu{
 	position: relative;
 	float: left;
 	list-style-type: none;
+	width: 20%;
+}
+
+a.here{
+	background-color: #cc0000;
 }
 
 .menu a{
 	display: block;
 	height: 3rem;
-	width: 11.5rem;
 	color: #FFF;
 	font-weight: bold;
 	font-size: 2rem;
@@ -77,81 +82,6 @@ li.menu{
 
 .menu a:hover, .menu a:active{
 	background-color: #cc0000;
-}
-
-/* ..........欢迎访问.......... */
-div.welcome{
-	position: relative;
-	top: 0rem;
-	width: 64rem;
-}
-
-/* ..........照片展示.......... */
-.photoflow{
-	position: relative;
-	z-index: 9;
-	width: 100rem;
-	animation: myfirst 6s infinite;
-	-webkit-animation: myfirst 6s infinite;
-	-o-animation: myfirst 6s infinite;
-	-moz-animation: myfirst 6s infinite;
-	font-size: 0rem;
-}
-
-.photoflow img{
-	width: 30rem;
-}
-
-div.photo{
-	display: inline-block;
-}
-
-div.window{
-	position: relative;
-	width: 30rem;
-	height: 22.5rem;
-	overflow: hidden;
-	box-shadow: 0 .1rem .5rem black;
-}
-
-@keyframes myfirst
-{
-	0% {left: 0rem;}
-	26.6% {left: 0rem;}
-	36.6% {left: -30rem;}
-	63.2% {left: -30rem;}
-	73.2% {left: -60rem;}
-	99.7% {left: -60rem;}
-	100% {left: -0rem}
-}
-
-/* ..........研究方向.......... */
-div.major{
-	position: absolute;
-	top: 0rem;
-	right: 0rem;
-	z-index: 10;
-	width: 30rem;
-	height: 22.5rem;
-	box-shadow: 0 .1rem .5rem black;
-}
-
-div.wel{
-	padding: 0.5rem;
-	background-color: #fafeff;
-	text-align: center;
-	color: black;
-	font-weight: bold;
-	font-size: 2rem;
-}
-
-div.field{
-	font-size: 1.5rem;
-	margin-left: 0.5rem;
-}
-
-p.fieldtitle{
-	font-weight: bold;
 }
 
 /* ..........友情链接.......... */

@@ -20,6 +20,19 @@ function insertAfter(newElement,targetElement) {
   }
 }
 
+// 导航栏
+function highlightPage() {
+  var navigation = document.getElementsByTagName("nav");
+  var links = navigation[0].getElementsByTagName("a");
+  var linkurl;
+  for (var i=0; i<links.length; i++) {
+    linkurl = links[i].getAttribute("href");
+    if (window.location.href.indexOf(linkurl) != -1) {
+      links[i].className = "here";
+    }
+  }
+}
+
 // Ajax
 function getHTTPObject() {
   if (typeof XMLHttpRequest == "undefined")
@@ -36,6 +49,7 @@ function getHTTPObject() {
 }
 
 function prepareAbstract() {
+  if (!document.getElementById("showCase")) return false;
   var showCase = document.getElementById("showCase");
   var links = showCase.getElementsByTagName("a");
   for (var i = 0; i < links.length; i++) {
@@ -76,3 +90,4 @@ function showAbstract(whichArticle) {
 }
 
 addLoadEvent(prepareAbstract);
+addLoadEvent(highlightPage);
