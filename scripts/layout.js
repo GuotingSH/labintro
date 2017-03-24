@@ -11,6 +11,15 @@ function addLoadEvent(func) {
   }
 }
 
+function insertAfter(newElement,targetElement) {
+  var parent = targetElement.parentNode;
+  if (parent.lastChild == targetElement) {
+    parent.appendChild(newElement);
+  } else {
+    parent.insertBefore(newElement,targetElement.nextSibling);
+  }
+}
+
 // Ajax
 function getHTTPObject() {
   if (typeof XMLHttpRequest == "undefined")
@@ -48,8 +57,12 @@ function showAbstract(whichArticle) {
         var lists = xmlDoc.getElementsByTagName("article");
         var article = lists[lists.length - whichId];
         var abstract = article.getElementsByTagName("abstract");
-        txt = abstract[0].firstChild.nodeValue;
-        alert(txt);
+        var txt = "Abstract: " + abstract[0].firstChild.nodeValue;
+        var txtbox = document.createTextNode(txt);
+        var abstractDiv = document.createElement("div");
+        abstractDiv.className = "abstractDiv";
+        abstractDiv.appendChild(txtbox);
+        insertAfter(abstractDiv, whichArticle.parentNode);
       }
     }
   request.send(null);
