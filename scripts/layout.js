@@ -46,26 +46,30 @@ function prepareAbstract() {
 }
 
 function showAbstract(whichArticle) {
-  var request = getHTTPObject();
-  if (request) {
-    request.open("GET", "articlelist.xml", true);
-    request.onreadystatechange = function() {
-      if (request.readyState == 4 && request.status ==200) {
-        var xmlDoc = request.responseXML.documentElement;
-        var articleList = xmlDoc.getElementsByTagName("article");
-        var whichId = parseInt(whichArticle.getAttribute("id"));
-        var lists = xmlDoc.getElementsByTagName("article");
-        var article = lists[lists.length - whichId];
-        var abstract = article.getElementsByTagName("abstract");
-        var txt = "Abstract: " + abstract[0].firstChild.nodeValue;
-        var txtbox = document.createTextNode(txt);
-        var abstractDiv = document.createElement("div");
-        abstractDiv.className = "abstractDiv";
-        abstractDiv.appendChild(txtbox);
-        insertAfter(abstractDiv, whichArticle.parentNode);
+  if (whichArticle.parentNode.nextSibling.tagName === "DIV") {
+    document.getElementById("showCase").removeChild(whichArticle.parentNode.nextSibling);
+  } else {
+    var request = getHTTPObject();
+    if (request) {
+      request.open("GET", "articlelist.xml", true);
+      request.onreadystatechange = function() {
+        if (request.readyState == 4 && request.status ==200) {
+          var xmlDoc = request.responseXML.documentElement;
+          var articleList = xmlDoc.getElementsByTagName("article");
+          var whichId = parseInt(whichArticle.getAttribute("id"));
+          var lists = xmlDoc.getElementsByTagName("article");
+          var article = lists[lists.length - whichId];
+          var abstract = article.getElementsByTagName("abstract");
+          var txt = "Abstract: " + abstract[0].firstChild.nodeValue;
+          var txtbox = document.createTextNode(txt);
+          var abstractDiv = document.createElement("div");
+          abstractDiv.className = "abstractDiv";
+          abstractDiv.appendChild(txtbox);
+          insertAfter(abstractDiv, whichArticle.parentNode);
+        }
       }
+    request.send(null);
     }
-  request.send(null);
   }
   return true;
 }
