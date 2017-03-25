@@ -20,7 +20,7 @@ div.person {
 	margin: 1rem;
 	padding: 1.5rem .5rem;
 	background-color: #efefef;
-	border-radius: 0.2rem;
+	border-radius: .2rem;
 	box-shadow: 0 .1rem .5rem black;
 	text-align: center;
 }

@@ -91,6 +91,7 @@ function showAbstract(whichArticle) {
 
 // article.html页面list隔行换色
 function stripeLists() {
+  if (!document.getElementById("showCase")) return false;
   var showCase = document.getElementById("showCase");
   var lists = showCase.getElementsByTagName("li");
   for (var i=0; i<lists.length; i++) {

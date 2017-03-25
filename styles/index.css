@@ -70,5 +70,15 @@ div.field{
 }
 
 p.fieldtitle{
+	margin: 1.5rem 0;
 	font-weight: bold;
+}
+
+.field ul{
+	margin: 1.5rem 0;
+	padding: 0 2.5rem;
+}
+
+.field li{
+	margin: 1.5rem 0;
 }

@@ -1,7 +1,10 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
 body{
 	font-family: "Microsoft Yahei" ! important;
-	margin: 0rem;
-	padding: 0rem;
 	background-image: url(../images/bgimage.png);
 	background-repeat: repeat;
 }
@@ -55,8 +58,6 @@ nav{
 ul.menus{
 	float: left;
 	width: 64rem;
-	margin: 0;
-	padding: 0;
 }
 
 li.menu{
@@ -105,8 +106,6 @@ div.linkin{
 
 .linkin ul{
 	list-style-type: none;
-	padding: 0;
-	margin: 0;
 }
 
 li.link{
@@ -147,8 +146,6 @@ p.footerinfo{
 	position: absolute;
 	bottom: 1rem;
 	color: #FFF;
-	margin: 0;
-	padding: 0;
 }
 
 footer img{

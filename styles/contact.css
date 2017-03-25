@@ -11,6 +11,10 @@ div.conboxsmall{
 	width: 80%;
 }
 
+div.contactinfo{
+	margin: 1rem 2.5rem;
+}
+
 div.mapbox{
 	text-align: center;
 	margin-top: 2rem;
