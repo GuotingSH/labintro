@@ -9,7 +9,7 @@ div.articlelist{
 
 .articlelist li{
 	text-align: justify;
-	margin: .5rem;
+	padding: .5rem;
 }
 
 .articlelist a{
@@ -17,11 +17,15 @@ div.articlelist{
 	color: #333;
 }
 
-.articlelist li:hover, .articlelist li:active{
-	background-color: #f5f5f5;
+.articlelist a:hover, .articlelist a:active{
+	font-weight: bold;
 }
 
 p.abstractDiv{
 	text-align: justify;
 	font-size: .8rem;
+}
+
+li.odd{
+	background-color: #f5f5f5;
 }

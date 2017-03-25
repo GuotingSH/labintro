@@ -89,5 +89,16 @@ function showAbstract(whichArticle) {
   return true;
 }
 
+function stripeLists() {
+  var showCase = document.getElementById("showCase");
+  var lists = showCase.getElementsByTagName("li");
+  for (var i=0; i<lists.length; i++) {
+    if (i%2 === 1) {
+      lists[i].className = "odd";
+    }
+  }
+}
+
+addLoadEvent(stripeLists);
 addLoadEvent(prepareAbstract);
 addLoadEvent(highlightPage);
