@@ -33,7 +33,7 @@ function highlightPage() {
   }
 }
 
-// Ajax
+// Ajax 展示文章摘要
 function getHTTPObject() {
   if (typeof XMLHttpRequest == "undefined")
     XMLHttpRequest = function () {
@@ -89,6 +89,7 @@ function showAbstract(whichArticle) {
   return true;
 }
 
+// article.html页面list隔行换色
 function stripeLists() {
   var showCase = document.getElementById("showCase");
   var lists = showCase.getElementsByTagName("li");
