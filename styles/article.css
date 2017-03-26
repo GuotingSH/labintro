@@ -22,6 +22,9 @@ div.articlelist{
 }
 
 p.abstractDiv{
+	vertical-align: middle;
+	display: inline-block;
+	width: 65%;
 	text-align: justify;
 	font-size: .8rem;
 }

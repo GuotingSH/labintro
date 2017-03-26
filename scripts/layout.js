@@ -72,14 +72,35 @@ function showAbstract(whichArticle) {
           var articleList = xmlDoc.getElementsByTagName("article");
           var whichId = parseInt(whichArticle.getAttribute("id"));
           var lists = xmlDoc.getElementsByTagName("article");
-          var article = lists[lists.length - whichId];
-          var abstract = article.getElementsByTagName("abstract");
-          var txt = "<b>Abstract:</b> " + abstract[0].firstChild.nodeValue;
-          var abstractDiv = document.createElement("div"); //创建abstract大框，包括照片和描述
-          var txtBox = document.createElement("p"); //创建abstract文本部分
+          var article = lists[lists.length - whichId]; // 定位到点击的article
+          // 获取<abstract><author><name>三部分内容
+          var txt = "<b>Abstract:</b> " + article.getElementsByTagName("abstract")[0].firstChild.nodeValue; // txt获取abstract内容
+          var photoSrc = article.getElementsByTagName("author")[0].firstChild.nodeValue; //获取photo链接
+          var name = article.getElementsByTagName("name")[0].firstChild.nodeValue
+          // 搭建树状结构
+          var abstractDiv = document.createElement("div"); // 创建abstract大框，包括照片和描述
+          // 照片展示区域，结构与members页面相同
+          var photoDiv = document.createElement("div"); // 创建照片展示div
+          photoDiv.className = "person";
+          var photoAside = document.createElement("aside"); //创建<aside>
+          photoDiv.appendChild(photoAside); // 将<aside>加入photodiv
+          var imgDiv = document.createElement("div");
+          var photo = document.createElement("img");
+          var brDiv = document.createElement("div");
+          var nameDiv = document.createElement("div");
+          photo.setAttribute("src", photoSrc); // 设置photo链接
+          imgDiv.appendChild(photo); // 将photo加入imgDiv
+          brDiv.innerHTML = "<br>";
+          nameDiv.innerHTML = "<strong>"+name+"</strong><br>";
+          photoAside.appendChild(imgDiv); // 将3个div加入photoAside中
+          insertAfter(brDiv, imgDiv);
+          insertAfter(nameDiv, brDiv);
+          // abstract展示区域
+          var txtBox = document.createElement("p"); // 创建abstract文本部分
           txtBox.className = "abstractDiv";
           txtBox.innerHTML = txt;
-          abstractDiv.appendChild(txtBox);
+          abstractDiv.appendChild(photoDiv);
+          insertAfter(txtBox, photoDiv);
           insertAfter(abstractDiv, whichArticle.parentNode);
         }
       }

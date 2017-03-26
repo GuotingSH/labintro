@@ -16,7 +16,7 @@ div.titlebox{
 
 div.person {
 	display: inline-block;
-	width: 15rem;
+	vertical-align: middle;
 	margin: 1rem;
 	padding: 1.5rem .5rem;
 	background-color: #efefef;
