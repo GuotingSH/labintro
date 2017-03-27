@@ -2,11 +2,10 @@
 div.welcome{
 	position: relative;
 	top: 0rem;
-	width: 64rem;
 }
 
 /* ..........照片展示.......... */
-.photoflow{
+div.photoflow{
 	position: relative;
 	z-index: 9;
 	width: 100rem;

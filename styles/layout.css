@@ -14,52 +14,35 @@ body{
 }
 
 div.blank{
-	height: 0.5rem;
+	height: 1rem;
 }
 
-div.headtop{
+/* ..........头部.......... */
+header.headtop{
+	position: fixed;
 	width: 100%;
-	min-width: 66rem;
-	height: 2rem;
-	background-color: #0E419C;
-	vertical-align: middle;
+	min-width: 70rem;
+	text-align: center;
+	background-color: #1e458a;
+	z-index: 99;
+}
+
+.headtop div{
+	display: inline-block;
+	width: 70%;
+	min-width: 70rem;
 }
 
 .headtop p{
-	float: right;
+	position: absolute;
+	right: .5rem;
 	margin: .5rem;
 	color: white;
 	font-size: .7rem;
 	font-weight: lighter;
 }
 
-/* ..........宽度限定.......... */
-div.framebig{
-	width: 66rem;
-	margin: auto;
-	background-color: white;
-	box-shadow: 0.5rem 0rem 0.3rem #888888;
-}
-
-div.framesmall{
-	width: 64rem;
-	margin: auto;
-}
-
-img.logo{
-	margin: 1rem;
-}
-
 /* ..........导航栏定义.......... */
-nav{
-	background-color: #CDC9A5;
-}
-
-ul.menus{
-	float: left;
-	width: 64rem;
-}
-
 li.menu{
 	position: relative;
 	float: left;
@@ -85,11 +68,32 @@ a.here{
 	background-color: #cc0000;
 }
 
+div.headback{
+	height: 11rem;
+}
+/* ..........宽度限定.......... */
+div.framebig{
+	width: 70%;
+	min-width: 70rem;
+	margin: auto;
+	background-color: white;
+	box-shadow: 0.5rem 0rem 0.3rem #888888;
+}
+
+div.framesmall{
+	width: 90%;
+	margin: auto;
+}
+
+img.logo{
+	display: block;
+}
+
 /* ..........友情链接.......... */
 div.links{
 	width: 100%;
-	min-width: 66rem;
-	background-color: #0E419C;
+	min-width: 70rem;
+	background-color: #1e458a;
 	color: white;
 	padding: 0.5rem 0rem 0.5rem 0rem;
 	text-align: center;
@@ -97,6 +101,7 @@ div.links{
 
 div.linkin{
 	display: inline-block;
+	width: 70%;
 }
 
 .link img{
@@ -136,7 +141,7 @@ div.paintro{
 footer{
 	position: relative;
 	width: 100%;
-	min-width: 66rem;
+	min-width: 70rem;
 	background-color: #343434;
 	padding: 1rem 0rem 1rem 0rem;
 	text-align: center;
