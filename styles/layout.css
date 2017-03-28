@@ -27,10 +27,13 @@ header.headtop{
 	z-index: 99;
 }
 
-.headtop div{
+div.headwidth{
 	display: inline-block;
 	width: 70%;
 	min-width: 70rem;
+}
+div.headimg{
+	padding-top: .5rem;
 }
 
 .headtop p{
@@ -43,33 +46,28 @@ header.headtop{
 }
 
 /* ..........导航栏定义.......... */
-li.menu{
+.menus li{
 	position: relative;
 	float: left;
 	list-style-type: none;
 	width: 20%;
+	padding-bottom: .2rem;
 }
 
-a.here{
-	background-color: #cc0000;
+li.here{
+	border-bottom: .3rem solid #c99605;
 }
 
-.menu a{
+.menus a{
 	display: block;
-	height: 3rem;
 	color: #FFF;
 	font-weight: bold;
-	font-size: 2rem;
-	text-align: center;
+	font-size: 1.5rem;
 	text-decoration: none;
 }
 
-.menu a:hover, .menu a:active{
-	background-color: #cc0000;
-}
-
 div.headback{
-	height: 11rem;
+	height: 8rem;
 }
 /* ..........宽度限定.......... */
 div.framebig{

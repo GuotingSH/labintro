@@ -28,7 +28,7 @@ function highlightPage() {
   for (var i=0; i<links.length; i++) {
     linkurl = links[i].getAttribute("href");
     if (window.location.href.indexOf(linkurl) != -1) {
-      links[i].className = "here";
+      links[i].parentNode.className = "here";
     }
   }
 }
