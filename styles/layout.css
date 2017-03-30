@@ -18,8 +18,7 @@ div.blank{
 }
 
 /* ..........头部.......... */
-header.headtop{
-	position: fixed;
+#headtop{
 	width: 100%;
 	min-width: 70rem;
 	text-align: center;
@@ -27,16 +26,29 @@ header.headtop{
 	z-index: 99;
 }
 
+header.fixhead{
+	position: fixed;
+	top: -68px;
+	left: 0;
+	right: 0;
+}
+
 div.headwidth{
 	display: inline-block;
 	width: 70%;
 	min-width: 70rem;
 }
+
 div.headimg{
 	padding-top: .5rem;
+	text-align: left;
 }
 
-.headtop p{
+img.logo{
+	display: inline-block;
+}
+
+#headtop p{
 	position: absolute;
 	right: .5rem;
 	margin: .5rem;
@@ -67,7 +79,11 @@ li.here{
 }
 
 div.headback{
-	height: 8rem;
+	height: .5rem;
+}
+
+div.headbackbig{
+	height: 7.5rem;
 }
 /* ..........宽度限定.......... */
 div.framebig{
@@ -82,11 +98,6 @@ div.framesmall{
 	width: 90%;
 	margin: auto;
 }
-
-img.logo{
-	display: block;
-}
-
 /* ..........友情链接.......... */
 div.links{
 	width: 100%;

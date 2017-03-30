@@ -21,6 +21,18 @@ function insertAfter(newElement,targetElement) {
 }
 
 // 导航栏
+function myFunction() {
+    if (document.body.scrollTop > 68 || document.documentElement.scrollTop > 68) {
+        document.getElementById("headtop").className = "fixhead";
+        document.getElementById("headback").className = "headbackbig"
+    } else {
+        document.getElementById("headtop").className = "";
+        document.getElementById("headback").className = "headback"
+    }
+}
+
+window.onscroll = function() {myFunction()};
+
 function highlightPage() {
   var navigation = document.getElementsByTagName("nav");
   var links = navigation[0].getElementsByTagName("a");
