@@ -4,6 +4,7 @@
 ## 模版
 * 限制正文区域宽度
 * 导航栏当前页高亮
+* 导航栏冻结在顶部 [HTML DOM scrollTop Property](https://www.w3schools.com/jsref/prop_element_scrolltop.asp)
 ***
 ## 首页
 * 照片滚动css实现 [参考](http://blog.csdn.net/wongleetion/article/details/38779093)
@@ -35,3 +36,4 @@
 7. ~~头部及导航冻结,导航栏加入header 20170327~~
 8. 增加点击回到最上的悬浮按钮
 9. 首页加入视频模块
+10. ~~头部仅导航栏部分冻结 20170330~~
