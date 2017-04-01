@@ -114,7 +114,7 @@ div.linkin{
 }
 
 .link img{
-	width: 1.1rem;
+	width: 1rem;
 	vertical-align: middle;
 }
 
@@ -130,21 +130,10 @@ li.link{
 }
 
 .link a{
+	vertical-align: middle;
 	text-decoration: none;
 	font-size: 0.75rem;
 	color: #FFF;
-}
-/* ..........学科介绍.......... */
-div.pharmanal{
-	text-align: center;
-}
-
-div.paintro{
-	display: inline-block;
-	width: 80%;
-	margin-top: 1rem;
-	text-align: justify;
-	line-height: 200%;
 }
 /* ..........footer.......... */
 footer{
@@ -162,18 +151,15 @@ p.footerinfo{
 	color: #FFF;
 }
 
-footer img{
+div.social{
+	position: absolute;
+}
+
+.social img{
+	width: 2rem;
+}
+
+img.footerlogo{
 	width: 4rem;
 	float: right;
-}
-
-#bluebox div{
-	position: relative;
-	background-color: #16459f;
-}
-
-#bossimg div{
-	padding: 3rem;
-	margin: 3rem;
-	background-color: white;
 }

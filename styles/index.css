@@ -81,3 +81,15 @@ p.fieldtitle{
 .field li{
 	margin: 1.5rem 0;
 }
+/* ..........学科介绍.......... */
+div.pharmanal{
+	text-align: center;
+}
+
+div.paintro{
+	display: inline-block;
+	width: 80%;
+	margin-top: 1rem;
+	text-align: justify;
+	line-height: 200%;
+}
