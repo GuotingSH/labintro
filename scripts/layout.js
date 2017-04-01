@@ -40,7 +40,6 @@ function highlightPage() {
   for (var i=0; i<links.length; i++) {
     linkurl = links[i].getAttribute("href");
     if (window.location.href.indexOf(linkurl) != -1) {
-      document.getElementsByClassName("here")[0].className = "";
       links[i].parentNode.className = "here";
     }
   }
