@@ -17,6 +17,17 @@ div.blank{
 	height: 1rem;
 }
 
+div.hidetotop{
+	display: none; 
+}
+
+div.showtotop{
+	position: fixed;
+	left: 90%;
+	top: 30rem;
+	z-index: 5;
+	cursor: pointer;
+}
 /* ..........头部.......... */
 #headtop{
 	width: 100%;

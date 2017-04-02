@@ -19,16 +19,36 @@ function insertAfter(newElement,targetElement) {
     parent.insertBefore(newElement,targetElement.nextSibling);
   }
 }
+//返回顶部
+function pageScroll() {
+  //获取scrollTop值
+  var sTop = document.body.scrollTop; 
+  var pace = Math.max(1, sTop/10);
+  window.scrollBy(0,-pace); 
+  //延时递归调用，模拟滚动向上效果 
+  scrolldelay = setTimeout('pageScroll()',20); 
+  //判断当页面到达顶部，取消延时代码（否则页面滚动到顶部会无法再向下正常浏览页面） 
+  if(sTop == 0) clearTimeout(scrolldelay); 
+}
+
+function actionUp() {
+  var uptop = document.getElementById("totop");
+  uptop.onclick = function() {
+    return pageScroll();
+  }
+}
 
 // 导航栏
 function myFunction() {
-    if (document.body.scrollTop > 68 || document.documentElement.scrollTop > 68) {
-        document.getElementById("headtop").className = "fixhead";
-        document.getElementById("headback").className = "headbackbig"
-    } else {
-        document.getElementById("headtop").className = "";
-        document.getElementById("headback").className = "headback"
-    }
+  if (document.body.scrollTop > 68 || document.documentElement.scrollTop > 68) {
+    document.getElementById("headtop").className = "fixhead";
+    document.getElementById("headback").className = "headbackbig"
+    document.getElementById("totop").className = "showtotop";
+  } else {
+    document.getElementById("headtop").className = "";
+    document.getElementById("headback").className = "headback"
+    document.getElementById("totop").className = "hidetotop";
+  }
 }
 
 window.onscroll = function() {myFunction()};
@@ -137,3 +157,4 @@ function stripeLists() {
 addLoadEvent(stripeLists);
 addLoadEvent(prepareAbstract);
 addLoadEvent(highlightPage);
+addLoadEvent(actionUp);
