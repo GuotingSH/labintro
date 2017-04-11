@@ -22,7 +22,7 @@ function insertAfter(newElement,targetElement) {
 //返回顶部
 function pageScroll() {
   //获取scrollTop值
-  var sTop = document.body.scrollTop; 
+  var sTop = document.body.scrollTop || document.documentElement.scrollTop; 
   var pace = Math.max(1, sTop/10);
   window.scrollBy(0,-pace); 
   //延时递归调用，模拟滚动向上效果 
@@ -105,10 +105,12 @@ function showAbstract(whichArticle) {
           var whichId = parseInt(whichArticle.getAttribute("id"));
           var lists = xmlDoc.getElementsByTagName("article");
           var article = lists[lists.length - whichId]; // 定位到点击的article
-          // 获取<abstract><author><name>三部分内容
+          // 获取<abstract><author><name><link><pdf>五部分内容
           var txt = "<b>Abstract:</b> " + article.getElementsByTagName("abstract")[0].firstChild.nodeValue; // txt获取abstract内容
           var photoSrc = article.getElementsByTagName("author")[0].firstChild.nodeValue; //获取photo链接
-          var name = article.getElementsByTagName("name")[0].firstChild.nodeValue
+          var name = article.getElementsByTagName("name")[0].firstChild.nodeValue;
+          var link = article.getElementsByTagName("link")[0].firstChild.nodeValue;
+          var pdf = article.getElementsByTagName("pdf")[0].firstChild.nodeValue;
           // 搭建树状结构
           var abstractDiv = document.createElement("div"); // 创建abstract大框，包括照片和描述
           // 照片展示区域，结构与members页面相同
@@ -130,7 +132,8 @@ function showAbstract(whichArticle) {
           // abstract展示区域
           var txtBox = document.createElement("p"); // 创建abstract文本部分
           txtBox.className = "abstractDiv";
-          txtBox.innerHTML = txt;
+          var abstractTxt = txt + ' <a ' + link + 'target="_blank">[link]</a>' + ' <a ' + pdf + 'target="_blank">[pdf]</a>';
+          txtBox.innerHTML = abstractTxt;
           abstractDiv.appendChild(photoDiv);
           insertAfter(txtBox, photoDiv);
           insertAfter(abstractDiv, whichArticle.parentNode);

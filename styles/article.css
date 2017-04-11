@@ -29,6 +29,11 @@ p.abstractDiv{
 	font-size: .8rem;
 }
 
+.abstractDiv a{
+	color: #1e458a;
+	font-weight: bold;
+}
+
 li.odd{
 	background-color: #f5f5f5;
 }
