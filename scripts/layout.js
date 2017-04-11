@@ -124,8 +124,8 @@ function showAbstract(whichArticle) {
           var nameDiv = document.createElement("div");
           photo.setAttribute("src", photoSrc); // 设置photo链接
           imgDiv.appendChild(photo); // 将photo加入imgDiv
-          brDiv.innerHTML = "<br>";
-          nameDiv.innerHTML = "<strong>"+name+"</strong><br>";
+          brDiv.innerHTML = "<br/>";
+          nameDiv.innerHTML = "<strong>"+name+"</strong><br/>";
           photoAside.appendChild(imgDiv); // 将3个div加入photoAside中
           insertAfter(brDiv, imgDiv);
           insertAfter(nameDiv, brDiv);
