@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <articlelist>
   <article>
+    <link>href="http://www.sciencedirect.com/science/article/pii/S1570023217301654"</link>
+    <pdf>href="articlePdf/012jiangguoting.pdf"</pdf>
+    <title>Cross-platform metabolomics investigating the intracellular metabolic alterations of HaCaT cells exposed to phenanthrene</title>
+    <journal>Journal of Chromatography B</journal>
+    <author>images/members/jiangguoting.jpg</author>
+    <name>蒋果廷</name>
+    <DOI>10.1016/j.jchromb.2017.05.023</DOI>
+    <PMID></PMID>
+    <keywords>Metabolomics; Cross-platform; HaCaT cells; Phenanthrene</keywords>
+    <abstract>Phenanthrene (Phe) is one of the most abundant Polycyclic aromatic hydrocarbons (PAHs) contamination from various ambient sources, which has a tremendous impact on public health. However, our knowledge regarding its effects on skin remains limited. In this study, we investigated the metabolite profiling of the human keratinocytes HaCaT cells after Phe exposure to understand the toxic effects of Phe exposure on skin. To obtain a broad picture of metabolome with various hydrophilicity, a cross-platform approach with GC–MS and UHPLC–QTOF-MS has been employed. Data were analyzed by multivariate statistical analysis and samples were separated successfully using supervised PLS-DA models. It was shown that the impacts of Phe exposure on HaCaT cells were both dose-related and time-related. A total of 48 Phe-regulated metabolites were identified and among which 19 were confirmed by reference standards. By pathway analysis, amino acid metabolism, glutathione metabolism and glycerophospholipid metabolism were highlighted as the major metabolic pathways disturbed by Phe. Furthermore, it was found that the mechanisms included a reduced amino pool and a reduced antioxidant status. Overall, these results aid in improving understanding of the dermal toxicology related to Phe, and demonstrate this cross-platform approach is suitable for metabolomics researches on HaCaT cells.</abstract>
+  </article>
+  <article>
+    <link>href="https://www.ncbi.nlm.nih.gov/pubmed/27564527"</link>
+    <pdf>href="articlePdf/011kanghongyan.pdf"</pdf>
+    <title>Exploration of candidate biomarkers for human psoriasis based on gas chromatography-mass spectrometry serum metabolomics.</title>
+    <journal>British Journal of Dermatology</journal>
+    <author>images/members/kanghongyan.jpg</author>
+    <name>康宏艳</name>
+    <DOI>10.1111/bjd.15008</DOI>
+    <PMID>27564527</PMID>
+    <keywords></keywords>
+    <abstract>BACKGROUND: Recent studies have shown that dysregulated metabolic pathways are linked to psoriasis pathogenesis. However, an extensive, unbiased metabolic analysis in patients with psoriasis has not been completely explored. The metabolome represents the end products of proteomics or cellular processes that may be closely associated with the pathogenesis of psoriasis. OBJECTIVES: To determine the differences in serum metabolomic profiles among patients with psoriasis and healthy controls with the goal of identifying potential biomarkers in patients with psoriasis. MATERIALS AND METHODS: Serum metabolomic profiles from 29 subjects (14 patients with psoriasis and 15 sex- and age-matched healthy controls). The serum metabolites were analysed by gas chromatography-mass spectrometry based on a combined full scan and selected-ion monitoring mode. RESULTS: Multivariate statistical analysis of metabolomics data revealed altered serum metabolites between the patients with psoriasis and healthy individuals. Compared with healthy individuals, patients with psoriasis had higher levels of amino acids including asparagine, aspartic acid, isoleucine, phenylalanine, ornithine and proline; higher levels of lactic acid and urea; and lower levels of crotonic acid, azelaic acid, ethanolamine and cholesterol. CONCLUSIONS: It appears that the glycolysis pathway and amino acid metabolic activity are increased in patients with psoriasis. These metabolic perturbations may stem from increased demand for protein biosynthesis and keratinocyte hyperproliferation. Our findings may help to elucidate the pathogenesis of psoriasis and provide insights into early diagnosis and therapeutic intervention.</abstract>
+  </article>
+  <article>
     <link>href="https://www.ncbi.nlm.nih.gov/pubmed/25544010"</link>
     <pdf>href="articlePdf/010lixia.pdf"</pdf>
     <title>A sensitive method for digoxin determination using formate-adduct ion based on the effect of ionization enhancement in liquid chromatograph-mass spectrometer.</title>
