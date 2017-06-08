@@ -105,37 +105,37 @@ function showAbstract(whichArticle) {
           var whichId = parseInt(whichArticle.getAttribute("id"));
           var lists = xmlDoc.getElementsByTagName("article");
           var article = lists[lists.length - whichId]; // 定位到点击的article
-          // 获取<abstract><author><name><link><pdf>五部分内容
+          // 获取<abstract><cover><name><link><pdf>五部分内容
           var txt = "<b>Abstract:</b> " + article.getElementsByTagName("abstract")[0].firstChild.nodeValue; // txt获取abstract内容
-          var photoSrc = article.getElementsByTagName("author")[0].firstChild.nodeValue; //获取photo链接
+          var coverSrc = article.getElementsByTagName("cover")[0].firstChild.nodeValue; //获取cover链接
           var name = article.getElementsByTagName("name")[0].firstChild.nodeValue;
           var link = article.getElementsByTagName("link")[0].firstChild.nodeValue;
           var pdf = article.getElementsByTagName("pdf")[0].firstChild.nodeValue;
           // 搭建树状结构
-          var abstractDiv = document.createElement("div"); // 创建abstract大框，包括照片和描述
-          // 照片展示区域，结构与members页面相同
-          var photoDiv = document.createElement("div"); // 创建照片展示div
-          photoDiv.className = "person";
-          var photoAside = document.createElement("aside"); //创建<aside>
-          photoDiv.appendChild(photoAside); // 将<aside>加入photodiv
+          var abstractDiv = document.createElement("div"); // 创建abstract大框，包括cover和描述
+          // 封面展示区域，结构与members页面相同
+          var coverDiv = document.createElement("div"); // 创建cover展示div
+          coverDiv.className = "cover";
+          var coverAside = document.createElement("aside"); //创建<aside>
+          coverDiv.appendChild(coverAside); // 将<aside>加入coverdiv
           var imgDiv = document.createElement("div");
-          var photo = document.createElement("img");
+          var cover = document.createElement("img");
           var brDiv = document.createElement("div");
-          var nameDiv = document.createElement("div");
-          photo.setAttribute("src", photoSrc); // 设置photo链接
-          imgDiv.appendChild(photo); // 将photo加入imgDiv
-          brDiv.innerHTML = "<br/>";
-          nameDiv.innerHTML = "<strong>"+name+"</strong><br/>";
-          photoAside.appendChild(imgDiv); // 将3个div加入photoAside中
-          insertAfter(brDiv, imgDiv);
-          insertAfter(nameDiv, brDiv);
+          // var nameDiv = document.createElement("div");
+          cover.setAttribute("src", coverSrc); // 设置cover链接
+          imgDiv.appendChild(cover); // 将cover加入imgDiv
+          // brDiv.innerHTML = "<br/>";
+          // nameDiv.innerHTML = "<strong>"+name+"</strong><br/>";
+          coverAside.appendChild(imgDiv); // 将3个div加入coverAside中
+          // insertAfter(brDiv, imgDiv);
+          // insertAfter(nameDiv, brDiv);
           // abstract展示区域
           var txtBox = document.createElement("p"); // 创建abstract文本部分
           txtBox.className = "abstractDiv";
           var abstractTxt = txt + ' <a ' + link + 'target="_blank">[link]</a>' + ' <a ' + pdf + 'target="_blank">[pdf]</a>';
           txtBox.innerHTML = abstractTxt;
-          abstractDiv.appendChild(photoDiv);
-          insertAfter(txtBox, photoDiv);
+          abstractDiv.appendChild(coverDiv);
+          insertAfter(txtBox, coverDiv);
           insertAfter(abstractDiv, whichArticle.parentNode);
         }
       }

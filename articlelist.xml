@@ -5,6 +5,7 @@
     <pdf>href="articlePdf/012jiangguoting.pdf"</pdf>
     <title>Cross-platform metabolomics investigating the intracellular metabolic alterations of HaCaT cells exposed to phenanthrene</title>
     <journal>Journal of Chromatography B</journal>
+    <cover>images/covers/012.jpg</cover>
     <author>images/members/jiangguoting.jpg</author>
     <name>蒋果廷</name>
     <DOI>10.1016/j.jchromb.2017.05.023</DOI>
@@ -17,6 +18,7 @@
     <pdf>href="articlePdf/011kanghongyan.pdf"</pdf>
     <title>Exploration of candidate biomarkers for human psoriasis based on gas chromatography-mass spectrometry serum metabolomics.</title>
     <journal>British Journal of Dermatology</journal>
+    <cover>images/covers/011.jpg</cover>
     <author>images/members/kanghongyan.jpg</author>
     <name>康宏艳</name>
     <DOI>10.1111/bjd.15008</DOI>
@@ -29,6 +31,7 @@
     <pdf>href="articlePdf/010lixia.pdf"</pdf>
     <title>A sensitive method for digoxin determination using formate-adduct ion based on the effect of ionization enhancement in liquid chromatograph-mass spectrometer.</title>
     <journal>Journal of Chromatography B</journal>
+    <cover>images/covers/010.jpg</cover>
     <author>images/members/lixia.jpg</author>
     <name>李霞</name>
     <DOI>10.1016/j.jchromb.2014.11.023</DOI>
@@ -41,6 +44,7 @@
     <pdf>href="articlePdf/009zhouqingyuan.pdf"</pdf>
     <title>Metabolics Investigation of Cutaneous T Cell Lymphpma Based on UHPLC-QTOF/MS.</title>
     <journal>Asian Pacific journal of cancer prevention</journal>
+    <cover>images/covers/009.jpg</cover>
     <author>images/members/zhouqingyuan.jpg</author>
     <name>周清源</name>
     <DOI></DOI>
@@ -53,6 +57,7 @@
     <pdf>href="articlePdf/008liuxiaoyun.pdf"</pdf>
     <title>Rapid separation and identification of Strychnos alkaloids metabolites in rats by ultra high performance liquid chromatography with linear ion trap Orbitrap mass spectrometry.</title>
     <journal>Journal of Separation Science</journal>
+    <cover>images/covers/008.jpg</cover>
     <author>images/members/liuxiaoyun.jpg</author>
     <name>刘晓云</name>
     <DOI>10.1002/jssc.201301055</DOI>
@@ -65,6 +70,7 @@
     <pdf>href="articlePdf/007dongqixin.pdf"</pdf>
     <title>Optimization of mobile phase for the determination of Esomeprazole and related compounds and investigation of stress degradation by LC–MS.</title>
     <journal>Journal of Separation Science</journal>
+    <cover>images/covers/007.jpg</cover>
     <author>images/members/dongqixin.jpg</author>
     <name>董琦鑫</name>
     <DOI>10.1002/jssc.201201114</DOI>
@@ -77,6 +83,7 @@
     <pdf>href="articlePdf/006yuzhuhong.pdf"</pdf>
     <title>Simultaneous determination of six toxic alkaloids in human plasma and urine using capillary zone electrophoresis coupled to time-of-flight mass spectrometry.</title>
     <journal>Journal of Separation Science</journal>
+    <cover>images/covers/006.jpg</cover>
     <author>images/members/yuzhuhong.jpg</author>
     <name>余祝宏</name>
     <DOI>10.1002/jssc.201200263</DOI>
@@ -89,6 +96,7 @@
     <pdf>href="articlePdf/005linzhiyan.pdf"</pdf>
     <title>Structural characterization and identification of five triterpenoid saponins isolated from Momordica cochinchinensis extracts by liquid chromatography/tandem mass spectrometry.</title>
     <journal>International Journal of Mass Spectrometry</journal>
+    <cover>images/covers/005.jpg</cover>
     <author>images/members/linzhiyan.jpg</author>
     <name>林志燕</name>
     <DOI>10.1016/j.ijms.2012.07.022</DOI>
@@ -101,6 +109,7 @@
     <pdf>href="articlePdf/004panle.pdf"</pdf>
     <title>An LC–MS Method for a Hexokinase Inhibitor Study Based on Adenosine 50-Triphosphate Determination and Application to the Anticancer Mechanism of Momordica cochinchinensis.</title>
     <journal>Chromatographia</journal>
+    <cover>images/covers/004.jpg</cover>
     <author>images/members/panle.jpg</author>
     <name>潘乐</name>
     <DOI>10.1365/s10337-010-1672-0</DOI>
@@ -113,6 +122,7 @@
     <pdf>href="articlePdf/003panle.pdf"</pdf>
     <title>Simultaneous Determination of Levodopa, Benserazide and 3-O-Methyldopa in Human Serum by LC–MS–MS.</title>
     <journal>Chromatographia</journal>
+    <cover>images/covers/003.jpg</cover>
     <author>images/members/panle.jpg</author>
     <name>潘乐</name>
     <DOI>10.1365/s10337-010-1683-x</DOI>
@@ -125,6 +135,7 @@
     <pdf>href="articlePdf/002sushengmin.pdf"</pdf>
     <title>Online preconcentration of recombinant Arg-Gly-Asp-hirudin using dynamic pH junction for analysis in human urine samples by capillary electrophoresis-mass spectrometry.</title>
     <journal>Journal of Chromatography A</journal>
+    <cover>images/covers/002.jpg</cover>
     <author>images/members/sushengmin.jpg</author>
     <name>苏圣民</name>
     <DOI>10.1016/j.chroma.2008.12.050</DOI>
@@ -137,6 +148,7 @@
     <pdf>href="articlePdf/001sushengmin.pdf"</pdf>
     <title>A development of LC–MS method combining ultrafiltration and lyophilization for determination of r-RGD-Hirudin in human serum.</title>
     <journal>Journal of Chromatography B</journal>
+    <cover>images/covers/001.jpg</cover>
     <author>images/members/sushengmin.jpg</author>
     <name>苏圣民</name>
     <DOI>10.1016/j.jchromb.2008.05.032</DOI>
