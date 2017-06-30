@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <articlelist>
   <article>
-    <link>href="http://www.sciencedirect.com/science/article/pii/S1570023217301654"</link>
+    <link>href="https://www.ncbi.nlm.nih.gov/pubmed/28578192"</link>
     <pdf>href="articlePdf/012jiangguoting.pdf"</pdf>
     <title>Cross-platform metabolomics investigating the intracellular metabolic alterations of HaCaT cells exposed to phenanthrene</title>
     <journal>Journal of Chromatography B</journal>
@@ -9,7 +9,7 @@
     <author>images/members/jiangguoting.jpg</author>
     <name>蒋果廷</name>
     <DOI>10.1016/j.jchromb.2017.05.023</DOI>
-    <PMID></PMID>
+    <PMID>28578192</PMID>
     <keywords>Metabolomics; Cross-platform; HaCaT cells; Phenanthrene</keywords>
     <abstract>Phenanthrene (Phe) is one of the most abundant Polycyclic aromatic hydrocarbons (PAHs) contamination from various ambient sources, which has a tremendous impact on public health. However, our knowledge regarding its effects on skin remains limited. In this study, we investigated the metabolite profiling of the human keratinocytes HaCaT cells after Phe exposure to understand the toxic effects of Phe exposure on skin. To obtain a broad picture of metabolome with various hydrophilicity, a cross-platform approach with GC–MS and UHPLC–QTOF-MS has been employed. Data were analyzed by multivariate statistical analysis and samples were separated successfully using supervised PLS-DA models. It was shown that the impacts of Phe exposure on HaCaT cells were both dose-related and time-related. A total of 48 Phe-regulated metabolites were identified and among which 19 were confirmed by reference standards. By pathway analysis, amino acid metabolism, glutathione metabolism and glycerophospholipid metabolism were highlighted as the major metabolic pathways disturbed by Phe. Furthermore, it was found that the mechanisms included a reduced amino pool and a reduced antioxidant status. Overall, these results aid in improving understanding of the dermal toxicology related to Phe, and demonstrate this cross-platform approach is suitable for metabolomics researches on HaCaT cells.</abstract>
   </article>
