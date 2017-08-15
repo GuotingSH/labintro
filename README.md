@@ -1,5 +1,5 @@
 # 郁韵秋课题组
-[https://ktchiang1992.github.io/labintro/](https://ktchiang1992.github.io/labintro/)  
+[https://fduyyq.github.io/labintro/](https://fduyyq.github.io/labintro/)  
 20170319完成第一版
 ***
 ## 模版
