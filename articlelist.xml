@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <articlelist>
   <article>
+    <link>href="https://www.ncbi.nlm.nih.gov/pubmed/29413580"</link>
+    <pdf>href="articlePdf/014jiangguoting.pdf"</pdf>
+    <title>Serum metabolite profiling of cutaneous T-cell lymphoma based on a multiplatform approach</title>
+    <journal>Journal of Chromatography B</journal>
+    <cover>images/covers/014.jpg</cover>
+    <author>images/members/jiangguoting.jpg</author>
+    <name>蒋果廷</name>
+    <DOI>10.1016/j.jchromb.2018.01.034</DOI>
+    <PMID>29413580</PMID>
+    <keywords>Cutaneous T-cell lymphoma; Differential metabolites; Metabolomics; Multiplatform</keywords>
+    <abstract>Cutaneous T-cell lymphoma (CTCL) is a class of non-Hodgkin lymphoma with a difficult early diagnosis. The overall annual age-adjusted incidence of CTCL had consistently increased to around 10.2 cases per million persons. However, our knowledge regarding its mechanism of disease origin and progression remains unclear. In this study, serum samples from 31 CTCL patients and 31 matched healthy volunteers were analyzed in depth to screen metabolites capable of differentiating CTCL from controls. To obtain a higher coverage of metabolome with various hydrophilicity, a multiplatform approach with GC-MS and UHPLC-QTOF-MS has been employed. Data were analyzed by multivariate statistical analysis and CTCL group was separated from control group successfully using supervised OPLS-DA model. A total of 51 CTCL-regulated metabolites were identified, among which 15 differential metabolites have an AUC > 0.9 in receiver operating characteristic (ROC) curve analysis. Glycerophospholipid metabolism, tryptophan metabolism and purine metabolism were highlighted as 3 major altered pathways in CTCL serum. These alterations revealed impacts to membrane stability and weakened immune as well as ATP depletion associated with CTCL. Overall, these results aid in improving understanding of the mechanism related to CTCL, and demonstrate this multiplatform approach is suitable for serum metabolomics researches.</abstract>
+  </article>
+  <article>
+    <link>href="https://www.ncbi.nlm.nih.gov/pubmed/29160924"</link>
+    <pdf>href="articlePdf/013leyunchen.pdf"</pdf>
+    <title>Accelerated, untargeted metabolomics analysis of cutaneous T-cell lymphoma reveals metabolic shifts in plasma and tumor adjacent skins of xenograft mice</title>
+    <journal>Journal of Mass Spectrometry</journal>
+    <cover>images/covers/013.jpg</cover>
+    <author>images/members/leyunchen.jpg</author>
+    <name>乐云辰</name>
+    <DOI>10.1002/jms.4048</DOI>
+    <PMID>29160924</PMID>
+    <keywords>cutaneous T-cell lymphoma (CTCL); data analysis; metabolic pathways; metabolomics; ultra high-performance liquid chromatography-quadrupole time-of-flight mass spectrometry (UHPLC-QTOF)</keywords>
+    <abstract>Cutaneous T-cell lymphoma (CTCL) is a heterogeneous group of skin-homing T-cell neoplasms. Clinical management is stage based but diagnosis and prognosis could be extremely challenging. The presented study aims to explore the metabolic profiling of CTCL by an accelerated untargeted metabolomics data analysis tool "Mummichog" to facilitate the discoveries of potential biomarkers for clinical early stage diagnosis, prognosis, and treatments in CTCL. Ultra high-performance liquid chromatography-quadrupole time-of-flight-based untargeted metabolomics were conducted on the skin and plasma of CTCL mice. It showed that the metabolism of skin changed greatly versus control samples in the development of CTCL. Increased l-glutamate and decreased adenosine monophosphate were the most essential metabolic features of CTCL tumor and tumor adjacent skins. Unique metabolism changes in tumor adjacent non-involved skin tissues (ANIT) occurred in the progress of carcinogenesis, including upregulated cytidine-5'-triphosphate, aberrant biosynthesis of prostaglandins, pyrimidine, mevalonate pathway, and tryptophan degradation. Sharply elevated 5-phospho-α-d-ribose 1-diphosphate (PRPP) marked the final state of tumor in CTCL. In the plasma, systematic shifts in corticosterone, sphingolipid, and ceramide metabolism were found. These uncovered aberrant metabolites and metabolic pathways suggested that the metabolic reprogramming of PRPP in tumor tissues may cause the disturbance of cytidine and uridine metabolic homeostasis in ANIT. Accumulative cytidine-5'-triphosphate in ANIT may exert positive feedback on the PRPP level and leads to CTCL further development. In addition, the accelerated data analysis tool "Mummichog" showed good practicability and can be widely used in high-resolution liquid chromatography mass spectrometry-based untargeted metabolomics.</abstract>
+  </article>
+  <article>
     <link>href="https://www.ncbi.nlm.nih.gov/pubmed/28578192"</link>
     <pdf>href="articlePdf/012jiangguoting.pdf"</pdf>
     <title>Cross-platform metabolomics investigating the intracellular metabolic alterations of HaCaT cells exposed to phenanthrene</title>
